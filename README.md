@@ -17,4 +17,5 @@ No projeto falta algumas folhas de estilos, mas você poderá visualizar o proje
 - Firebase
 
 ### Imagem do projeto
-![firebase](https://user-images.githubusercontent.com/6588753/42545541-039da868-848f-11e8-8516-384efbec7621.png)
+![angular](https://user-images.githubusercontent.com/6588753/42546239-e85006ba-8492-11e8-8849-16739818f241.png)
+
