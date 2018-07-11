@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="portfolio">
+
+<head>
+    <title>Michel Manarin</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="portfolio">
+    <meta name="author" content="Michel Manarin">
+    <link rel="icon" type="image/png" sizes="16x16" href="plugins/images/favicon.png">
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <link href="plugins/bower_components/toast-master/css/jquery.toast.css" rel="stylesheet">
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+    <link href="css/colors/default.css" id="theme" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-animate.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <script src="js/main.js"></script>
+    <script src="js/database.js"></script>
+    <script src="js/controllers/login-controller.js"></script>
+    <script src="js/controllers/home-controller.js"></script>
+    <script src="js/controllers/contalis-controller.js"></script>
+    <script src="js/directives/minhas-diretivas.js"></script>
+
+    <script>
+			
+		firebase.initializeApp({
+                                apiKey: "AIzaSyAmehj9iT3_km2s7mYClNtkxN1PMAPEA14",
+                                authDomain: "portfolio-599af.firebaseapp.com",
+                                databaseURL: "https://portfolio-599af.firebaseio.com",
+                                projectId: "portfolio-599af",
+                                storageBucket: "portfolio-599af.appspot.com",
+                                messagingSenderId: "876379510056"
+        });
+
+	</script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header">
+
+    <ng-view></ng-view>
+    
+    <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+    <script src="lib/jquery.slimscroll.js"></script>
+    <script src="lib/waves.js"></script>
+    <script src="lib/custom.js"></script>
+
+</body>
+
+</html>
